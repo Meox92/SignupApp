@@ -1,5 +1,7 @@
 # SignupApp
 
-Tests:
+Testing asynchronous methods with spy class in Swift  
 
-git checkout part1_test_method_count
+test branches:   
+git checkout part1_test_method_count  
+git checkout part2_test_capture_values  
