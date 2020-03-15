@@ -8,7 +8,7 @@
 import Cocoa
 
 protocol UserServices {
-    func signup(with mail: String, password: String, completion: (Result<User, Error>) -> Void)
+    func signup(with mail: String, password: String, completion: @escaping(Result<User, Error>) -> Void)
     func validateCode(code: String, user: User, completion: @escaping(Result<User, Error>) -> Void)
 }
 
